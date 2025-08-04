@@ -1,2 +1,2 @@
-# frozen_string_literal: true
-
+name = "Ben"
+puts name.upcase.reverse
