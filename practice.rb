@@ -1,10 +1,7 @@
-print "Integer please: "
-user_num = Integer(gets.chomp)
+hungry = false
 
-if user_num < 0
-  puts "You picked a negative integer!"
-elsif user_num > 0
-  puts "You picked a positive integer!"
+unless hungry # this will happen unless hungry = true
+  puts "I'm writing Ruby programs!"
 else
-  puts "You picked zero!"
+  puts "Time to eat!"
 end
