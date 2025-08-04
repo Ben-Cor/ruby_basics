@@ -1,11 +1,9 @@
-hungry = false
+print "Pleathe enter a thtring: "
+user_input = gets.chomp
+user_input.downcase!
 
-unless hungry # this will happen unless hungry = true
-  puts "I'm writing Ruby programs!"
+if user_input.gsub!(/s/, "th")
+  puts"#{user_input}"
 else
-  puts "Time to eat!"
+  print "no s in the string"
 end
-
-is_true = 2 != 3
-
-is_false = 2 == 3
