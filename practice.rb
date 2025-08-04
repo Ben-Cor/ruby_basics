@@ -1,8 +1,10 @@
-print "What's your first name?"
-first_name = gets.chomp
-print "What's your last name?"
-last_name = gets.chomp
-print "What city do you live in?"
-city = gets.chomp
-print "What state or province to do live in?"
-state = gets.chomp
+print "Integer please: "
+user_num = Integer(gets.chomp)
+
+if user_num < 0
+  puts "You picked a negative integer!"
+elsif user_num > 0
+  puts "You picked a positive integer!"
+else
+  puts "You picked zero!"
+end
