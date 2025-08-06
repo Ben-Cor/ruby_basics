@@ -3,3 +3,5 @@ text = gets.chomp
 
 puts "Enter words to redact: "
 redact = gets.chomp
+
+words = text.split(" ")
