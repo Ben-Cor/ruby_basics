@@ -21,3 +21,10 @@ array.each do |x|
   x += 10
   print "#{x}"
 end
+
+i = 30
+loop do
+  print "Ruby!"
+  i -= 1
+  break if i <= 0
+end
