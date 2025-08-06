@@ -28,3 +28,5 @@ loop do
   i -= 1
   break if i <= 0
 end
+
+30.times { print "Ruby!"}
