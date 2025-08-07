@@ -21,3 +21,8 @@ print  "#{demo_array[2]}"
 languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
 
 languages.each { |language| puts language }
+
+s = [["ham", "swiss"], ["turkey", "cheddar"], ["roast beef", "gruyere"]]
+
+s.each { |ingredients| sub_array = ingredients
+sub_array.each {|item| puts item}}
