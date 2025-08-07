@@ -18,3 +18,6 @@ frequencies = frequencies.sort_by do |word, count|
   count
 end
 frequencies.reverse
+
+# display hash
+frequencies.each { |word, count| puts word + " " + count.to_s}
