@@ -12,3 +12,9 @@ frequencies = Hash.new(0)
 words.each do |word|
   frequencies["#{word}"] += 1
 end
+
+# sort frequencies
+frequencies = frequencies.sort_by do |word, count|
+  count
+end
+frequencies.reverse
