@@ -17,3 +17,7 @@ end
 demo_array = [100, 200, 300, 400, 500]
 
 print  "#{demo_array[2]}"
+
+languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"]
+
+languages.each { |language| puts language }
