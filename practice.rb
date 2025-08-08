@@ -10,6 +10,7 @@ frequencies = Hash.new(0)
 
 # add words to the hash and add value by one
 words.each do |word|
+  word = word.downcase
   frequencies["#{word}"] += 1
 end
 
