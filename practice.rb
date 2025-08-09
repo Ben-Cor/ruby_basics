@@ -22,3 +22,9 @@ frequencies.reverse
 
 # display hash
 frequencies.each { |word, count| puts word + " " + count.to_s}
+
+def greeting
+  puts "Hello"
+end
+
+greeting
